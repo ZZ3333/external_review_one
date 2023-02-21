@@ -9,3 +9,12 @@ describe(SchoolReportCompany, () => {
     expect(test.testResults([]));
   });
 });
+
+
+// Input                           | Outut
+// Green, Green, Amber, Red, Green | "Green: 3\nAmber: 1\nRed: 1"
+
+it("tests green test vlaues", () => {
+  const test = SchoolReportCompany(["Green, Green, Amber, Red, Green"]);
+  expect(test.PassResults(["Green: 3"])
+});
