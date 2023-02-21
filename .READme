@@ -1,0 +1,23 @@
+# Project School Report
+
+i work for school report compnay
+we help teachers to find out on how students perform on tests
+we get a strng of comma seprated values of test results
+we want to generate a simple report on top of that
+
+# Questions
+
+tests results; values red, amber ,green
+
+### Criteria
+
+<!-- "Green, Green, Amber, Red, Green" -->
+
+### Expected value:
+
+<!-- "Green: 3\nAmber: 1\nRed: 1" -->
+
+### Input / Output table:
+
+Input                           | Outut
+Green, Green, Amber, Red, Green | "Green: 3\nAmber: 1\nRed: 1"
